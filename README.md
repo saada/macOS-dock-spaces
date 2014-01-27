@@ -1,4 +1,4 @@
-Add-Dock-Spaces
+DockSpaces
 ===============
 
 Native OSX App for adding spaces to your dock
