@@ -8,3 +8,5 @@ Native OSX App for adding spaces to your dock
 1. Download [DockSpaces.dmg](https://github.com/saada/Dock-Spaces/raw/master/DockSpaces.dmg)
 2. Run the file, then drag&drop to Applications folder
 3. Run DockSpaces and find the commands in the top status bar icon
+
+Tutorial to create nice .dmg file: http://codevarium.gameka.com.br/how-to-create-your-own-beautiful-dmg-files/
