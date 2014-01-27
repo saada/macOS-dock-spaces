@@ -18,6 +18,8 @@
 		939DEB0C1895D43F00449E78 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 939DEAEB1895D43F00449E78 /* Cocoa.framework */; };
 		939DEB141895D43F00449E78 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 939DEB121895D43F00449E78 /* InfoPlist.strings */; };
 		939DEB161895D43F00449E78 /* Dock_SpacesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 939DEB151895D43F00449E78 /* Dock_SpacesTests.m */; };
+		939DEB261895E0BC00449E78 /* fish.png in Resources */ = {isa = PBXBuildFile; fileRef = 939DEB251895E0BC00449E78 /* fish.png */; };
+		939DEB281895E89400449E78 /* fish24x24.png in Resources */ = {isa = PBXBuildFile; fileRef = 939DEB271895E89400449E78 /* fish24x24.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		939DEB111895D43F00449E78 /* Dock SpacesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dock SpacesTests-Info.plist"; sourceTree = "<group>"; };
 		939DEB131895D43F00449E78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		939DEB151895D43F00449E78 /* Dock_SpacesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dock_SpacesTests.m; sourceTree = "<group>"; };
+		939DEB251895E0BC00449E78 /* fish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fish.png; sourceTree = "<group>"; };
+		939DEB271895E89400449E78 /* fish24x24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fish24x24.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +131,8 @@
 		939DEAF21895D43F00449E78 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				939DEB271895E89400449E78 /* fish24x24.png */,
+				939DEB251895E0BC00449E78 /* fish.png */,
 				939DEAF31895D43F00449E78 /* Dock Spaces-Info.plist */,
 				939DEAF41895D43F00449E78 /* InfoPlist.strings */,
 				939DEAF71895D43F00449E78 /* main.m */,
@@ -231,9 +237,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				939DEAF61895D43F00449E78 /* InfoPlist.strings in Resources */,
+				939DEB261895E0BC00449E78 /* fish.png in Resources */,
 				939DEB041895D43F00449E78 /* Images.xcassets in Resources */,
 				939DEAFC1895D43F00449E78 /* Credits.rtf in Resources */,
 				939DEB021895D43F00449E78 /* MainMenu.xib in Resources */,
+				939DEB281895E89400449E78 /* fish24x24.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,6 +391,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = FakeCodeSign;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dock Spaces/Dock Spaces-Prefix.pch";
@@ -396,6 +405,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = FakeCodeSign;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dock Spaces/Dock Spaces-Prefix.pch";
@@ -464,6 +474,7 @@
 				939DEB1B1895D43F00449E78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		939DEB1C1895D43F00449E78 /* Build configuration list for PBXNativeTarget "Dock SpacesTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +483,7 @@
 				939DEB1E1895D43F00449E78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
