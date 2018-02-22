@@ -1,0 +1,26 @@
+-x
+objective-c
+-arch
+x86_64
+-std=gnu99
+-fobjc-arc
+-gmodules
+-fpascal-strings
+-Os
+-fno-common
+-DNS_BLOCK_ASSERTIONS=1
+-DOBJC_OLD_DISPATCH_PROTOTYPES=0
+-isysroot
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk
+-fasm-blocks
+-mmacosx-version-min=10.9
+-g
+-fvisibility=hidden
+-iquote
+-iquote
+-I/Users/saada/HackHackHack/Projects/XCode/Dock Spaces/build/Release/include
+-F/Users/saada/HackHackHack/Projects/XCode/Dock Spaces/build/Release
+x86_64-apple-darwin17.2.0
+"4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2)"
+SDK_PRODUCT_BUILD_VERSION=17C76
+17C76

@@ -19,8 +19,10 @@
     statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
     [statusItem setMenu:statusMenu];
 //    [statusItem setTitle:@"Dock Sapces"];
-    [statusItem setHighlightMode:YES];
-    [statusItem setImage:[NSImage imageNamed:@"fish24x24"]];
+    NSImage *icon = [NSImage imageNamed:@"fish24x24"];
+    icon.template = YES;
+    statusItem.image = icon;
+    statusItem.highlightMode = YES;
 }
 
 - (IBAction)addSpace:(id)sender {

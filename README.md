@@ -1,12 +1,31 @@
-DockSpaces
-===============
+# DockSpaces
 
 Native OSX App for adding spaces to your dock
 
-##Installation
+![image](./images/dock.png)
 
-1. Download [DockSpaces.dmg](https://github.com/saada/Dock-Spaces/raw/master/DockSpaces.dmg)
+## Install pre-built app
+
+1. Download [Dock-Spaces-1.0.dmg](https://github.com/saada/Dock-Spaces/raw/master/Dock-Spaces-1.0.dmg)
 2. Run the file, then drag&drop to Applications folder
-3. Run DockSpaces and find the commands in the top status bar icon
+3. Run `Dock Spaces.app` from your Applications folder and find the commands in the top status bar icon ![image](./images/dock-spaces.png)
+4. After adding a few spaces to dock, you will be able to move the spaces around the dock to wherever you like. NOTE: you can also throw spaces out of the dock just like you would remove a regular app
 
-Tutorial to create nice .dmg file: http://codevarium.gameka.com.br/how-to-create-your-own-beautiful-dmg-files/
+## Features
+
+* Supports macOS dark mode theme
+
+## Make your own build
+
+After running `git clone`, compile with
+
+```sh
+xcodebuild clean build CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
+```
+
+Use [create-dmg](https://github.com/sindresorhus/create-dmg) tool to generate dmg file.
+
+```sh
+create-dmg build/Release/Dock\ Spaces.app
+# generates ./Dock-Spaces-1.0.dmg
+```
