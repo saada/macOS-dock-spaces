@@ -35,6 +35,15 @@
     
 }
 
+- (IBAction)addSmallSpace:(id)sender {
+    NSString *path = @"/usr/bin/defaults";
+    NSArray *args = [NSArray arrayWithObjects:@"write",@"com.apple.dock", @"persistent-apps", @"-array-add", @"{\"tile-type\"=\"small-spacer-tile\";}", nil];
+    [[NSTask launchedTaskWithLaunchPath:path arguments:args] waitUntilExit];
+
+    NSLog(@"Adding dock space...");
+    [self restartDock:nil];
+}
+
 - (IBAction)restartDock:(id)sender {
     NSString *path = @"/usr/bin/killall";
     NSArray *args = [NSArray arrayWithObjects:@"Dock", nil];
