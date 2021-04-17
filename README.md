@@ -1,4 +1,4 @@
-# DockSpaces
+# macOS-dock-spaces
 
 macOS app for adding spaces to your dock. Spacers help keep your dock organized. The app only needs to run when you need to add spacers.
 
@@ -14,8 +14,10 @@ macOS app for adding spaces to your dock. Spacers help keep your dock organized.
 
 ## Features
 
-- Supports macOS dark mode theme
-- Add different sized spacers
+- works on macOS 10 and 11
+- only run when adding spacers
+- dark mode support
+- different sized spacers
 
 ![image](./images/small_space.png)
 
