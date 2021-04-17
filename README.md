@@ -1,6 +1,6 @@
 # DockSpaces
 
-Native OSX App for adding spaces to your dock
+macOS app for adding spaces to your dock. Spacers help keep your dock organized. The app only needs to run when you need to add spacers.
 
 ![image](./images/dock.png)
 
