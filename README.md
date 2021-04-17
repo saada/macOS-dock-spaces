@@ -4,13 +4,18 @@ macOS app for adding spaces to your dock. Spacers help keep your dock organized.
 
 ![image](./images/dock.png)
 
-## Install pre-built app
+## Install
 
 1. Download [Dock-Spaces-1.1.dmg](https://github.com/saada/Dock-Spaces/raw/master/Dock-Spaces-1.1.dmg)
 2. Run the file, then drag&drop to Applications folder
 3. Run `Dock Spaces.app` from your Applications folder and find the commands in the top status bar icon ![image](./images/dock-spaces.png)
-4. After adding a few spaces to dock, you will be able to move the spaces around the dock to wherever you like. NOTE: you can also throw spaces out of the dock just like you would remove a regular app
-5. You can shut down the app after adding all the spacers you need
+
+## User Guide
+
+- While the app is running, you can add small and regular sized spaces to the dock
+- After adding spaces, you can drag & drop them around the dock to wherever you like
+- You can delete a spacer by throwing them out of the dock just like you would remove a regular app
+- You can shut down the app after adding all the spacers you need
 
 ## Features
 
